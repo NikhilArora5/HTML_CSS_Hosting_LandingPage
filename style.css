@@ -25,7 +25,7 @@ html{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
     
@@ -829,6 +829,7 @@ display: none;
     position: sticky;
     top: 0px;
     background-color: #07a6f4;
+    justify-content: center;
 }
 #menu{
     display:block;
@@ -1527,6 +1528,10 @@ Mobile */
 /* 470px */
 
 @media screen and (max-width:470px){
+
+    .nav-logo{
+        width: 100px;
+    }
     
     .pricing>h1{
         /* text-align: center; */
