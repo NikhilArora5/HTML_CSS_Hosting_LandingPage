@@ -15,6 +15,32 @@
 
     <!-- NAV SECTION -->
 
+    <div id="navigation-cp">
+
+
+
+        <div onclick="onClickMenu()" id="cp-menu">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="m-cp-nav" id="nav-cp">
+            <a href="#home-id">Home</a>
+            <a href="#about-id">Domain</a>
+            <a href="#page-id">Hosting</a>
+            <a href="#agent-id">Features</a>
+            <a href="#blog-id">Pricing</a>
+            <a href="#contact-id">About us</a>
+            <div class="cp-btns">
+                <!-- <a href="#">Log in</a> -->
+                <a href="#">Lets Talk</a>
+    
+            </div>
+            
+        </ul>
+        
+    </div>
+
     <nav class="nav-bar">
         <img  class="nav-logo" src="/assets/Logo.png" alt="">
 
@@ -36,15 +62,18 @@
     <div class="div-1">
 
         <div class="div-1-left">
-            <h1 class="div-1-heading">Great Websites Start with Unlimited Hosting </h1>
+            <h1 class="div-1-heading hd">Great Websites Start with Unlimited Hosting </h1>
             <p class="div-1-content">We provide the best offer of unlimited web hosting.The most complete features,affordable prices,and
                 24/7 technical support are at your disposal
             </p>
-            <button class="btn div-btns">Choose Package</button>
+            <div class="hero-btn-cont">
+                <button class="btn div-btns">Choose Package</button>
+            </div>
+            
         </div>
-        <div class="div-1-right">
-            <img src="/assets/_0000_settings.png" alt="" class="div-1-img">
-        </div>
+        
+        <img src="/assets/_0000_settings.png" alt="" class="div-1-img">
+        
     </div>
 
 <!-- COST_CONTENT_SECTION -->
@@ -52,16 +81,19 @@
 
 
 <div class="div-2">
-        <div class="div-2-left">
+       
             <img src="/assets/_0001_testing.png" alt="" class="div-2-img">
-        </div>
+       
 
         <div class="div-2-right">
-            <h1 class="div-2-heading">We Provide The Best Quality With The Low Cost</h1>
+            <h1 class="div-2-heading hd">We Provide The Best Quality With The Low Cost</h1>
             <p class="div-2-content">you can have a ready-made website for only a small fee.Complete features will
                 facilitate the website creation process,from Auto-Install wordPress,cPanel ,to free SSl
             </p>
-            <button class="btn read-more div-btns">Read More</button>
+            <div class="div-btn-cont">
+                <button class="btn read-more div-btns">Read More</button>
+            </div>
+           
        </div>
 
     </div>
@@ -75,20 +107,24 @@
 
         <div class="div-3-left">
 
-            <h1 class="div-3-heading">Number 1 Technical Support in Indonesia</h1>
+            <h1 class="div-3-heading hd">Number 1 Technical Support in Indonesia</h1>
         <p class="div-3-content">
             Contact Niagahoster's Customer Succes Agent at any time when there is a problem with your
             website.No need to wait long,your problem
             will be resolved quickly and in real-time vio Intercom's live-chat.
         </p>
-        <button class="btn read-more div-btns">
-            Read More
-        </button>
+
+        <div class="div-btn-cont">
+            <button class="btn read-more div-btns">
+                Read More
+            </button>
+        </div>
+       
         </div>
 
-        <div class="div-3-right">
+       
             <img class="div-3-img" src="/assets/div-3-img.PNG" alt="">
-        </div>
+       
         
     </div>
 
@@ -98,7 +134,7 @@
 
     <div class="div-services">
         <div class="services-heading">
-            <h1 class="service-heading">Services We Provide <br> At ThorHosting</h1>
+            <h1 class="service-heading hd">Services We Provide At ThorHosting</h1>
             <p class="service-support">
             Contact Niagahoster's Customer Succes Agent at any time when there is a problem with your
             website.No need to wait long,your problem
@@ -168,7 +204,7 @@
     <!-- PRICING SECTION -->
 
     <div class="pricing">
-        <h1>Flexible & Transparant Pricing</h1>
+        <h1 class="hd">Flexible & Transparant Pricing</h1>
         <div class="packages-container">
 
 
@@ -177,25 +213,30 @@
                     <h1 class="package-name">Starter Pack</h1>
                     <h6 class="package-description">Suitable for beginners</h6>
                 </div>
-    
-                <div class="features">
-                    <h6 class="feature">Up to 15,00 Visitors/Month</h6>
-                    <h6 class="feature">Disk Space 500 MB</h6>
-                    <h6 class="feature">Unlimited Bandwidht</h6>
-                    <h6 class="feature">Unlimited Database</h6>
-                    <h6 class="feature">1 Domain</h6> 
+                <div class="xyz">
+                    <div class="features">
+                        <h6 class="feature">Up to 15,00 Visitors/Month</h6>
+                        <h6 class="feature">Disk Space 500 MB</h6>
+                        <h6 class="feature">Unlimited Bandwidht</h6>
+                        <h6 class="feature">Unlimited Database</h6>
+                        <h6 class="feature">1 Domain</h6> 
+                    </div>
                 </div>
+                
     
                 <div class="price">
                     <h2><span class="price-amount">$29.99</span>/month </h2>
                     <h6 class="cancel">Cancel Anytime</h6>
-                    <button class="btn choose-plan" > Choose Plan</button>
+                    <div>
+                        <button class="btn choose-plan" > Choose Plan</button>
+                    </div>
+                    
                 </div>
                 
             </div>
     
     
-            <div class="package ">
+            <div class="package active-package">
                 <div class="package-heading active-heading">
                     <h1 class="package-name">Popular Packages</h1>
                     <h6 class="package-description">Suitable for Company,organization</h6>
@@ -213,7 +254,10 @@
                 <div class="price">
                     <h2><span class="price-amount">$59.99</span>/month </h2>
                     <h6 class="cancel">Cancel Anytime</h6>
-                    <button class="btn choose-plan active-plan" > Choose Plan</button>
+                    <div>
+                        <button class="btn choose-plan active-plan" > Choose Plan</button>
+                    </div>
+                    
                 </div>
                 
             </div>
@@ -238,7 +282,10 @@
                 <div class="price">
                     <h2><span class="price-amount">$99.99</span>/month </h2>
                     <h6 class="cancel">Cancel Anytime</h6>
-                    <button class="btn choose-plan" > Choose Plan</button>
+                    
+                    <div>
+                        <button class="btn choose-plan" > Choose Plan</button>
+                    </div>
                 </div>
                 
             </div>
@@ -255,7 +302,7 @@
     <!-- CUSTOMER REVIEW SECTION -->
     <div class="customer-reviews">
         <div class="section-title">
-            <h1>Our Customer Love Us</h1>
+            <h1 class="hd">Our Customer Love Us</h1>
             <p>Annet minim mollti non deserunt ullamco est sit aliqua dolor do amet sint. velit officia 
                 consequat duis enim velit mollit.Exercitation veniam consequat sunt non.
                 Annet minim mollti non deserunt ullamco est sit aliqua dolor do amet sint.</p>
@@ -333,7 +380,7 @@
     <div class="register-section">
 
             <div class="register-content">
-                <h1 class="register-heading">
+                <h1 class="register-heading hd">
                     Quit Worrying about Oce-Hosting services
                 </h1>
                 <p >Annet minim mollti non deserunt ullamco est sit aliqua dolor do amet sint. velit officia 
@@ -349,13 +396,13 @@
 
         <div class="Footer">
 
-            <div class="logo-container items-margin">
+            <div class="logo-container">
                 <img class="footer-logo" src="/assets/Logo.png" alt="">
                 <p class="logo-content">Annet minim mollti non deserunt ullamco est sit aliqua dolor do amet sint. velit officia 
                     consequat</p>
             </div>
-
-            <div class="menu items-margin">
+            <div class="ft-right">
+                <div class="menu items-margin">
                 <h1 class="menu-item footer-headings">Menu</h1>
                 <h3 class="menu-item footer-items">Home</h3>
                 <h3 class="menu-item footer-items">Covid19</h3>
@@ -393,8 +440,15 @@
                 <img src="/assets/_0005_li.png" alt="" class="social-img">
 
             </div>
+        </div>
+            
 
         </div>
+
+        
+<div class="my-contact">
+    <h6 class="designed-by">Designed by <a  target="_blank" href="https://www.linkedin.com/in/nikhilarora6541b91a4/">Nikhil Arora</a></h6> </div>
+<script src="/script.js"></script>
 
 
     
