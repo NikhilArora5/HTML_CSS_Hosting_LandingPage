@@ -877,13 +877,13 @@ display: none;
     background-color: ;
     text-align: center;
     padding-bottom: 5px;
-    background-color: #10181d;
+    background-color:#fff;
     margin: 0;
 }
 
 .designed-by{
     margin: 0 auto;
-    color: #fff;
+    color: #07a6f4;
     text-decoration: none;
     font-size: 15px;
     opacity: .8;
@@ -891,7 +891,7 @@ display: none;
 
 .designed-by>a{
     text-decoration: none;
-    color: #fff;
+    color:#07a6f4;
 
 }
 
@@ -1536,6 +1536,10 @@ Mobile */
        
     }
 
+    .service-heading{
+        width: 100%;
+    }
+
     .register-heading{
         width: 100%;
     }
@@ -1599,6 +1603,10 @@ Mobile */
 
 
    
+    /* customer */
 
+    .section-title{
+        width: 90%;
+    }
    
 }
